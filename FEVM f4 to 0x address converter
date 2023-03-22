@@ -25,6 +25,7 @@ def convert_address_f4_0X(encoded_text):
 
         hex_string = decoded_bytes.hex()
         print(hex_string)
+        return hex_string
     else:
         print("Incorrect f4 address format")
         
